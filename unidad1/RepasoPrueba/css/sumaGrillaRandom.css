@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.juego{
+    display: grid;
+    grid-template-columns: repeat(3,75px);
+    grid-template-rows: repeat(3,75px);
+    background-color: rgba(190, 5, 5, 0.584);
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 0 0 #f9f10bb9;
+}
+.display{
+    grid-column: span 3;
+padding: 25px;
+    margin: 10px;
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 35px;
+    
+
+}
+button{
+    border-radius: 12px;
+    margin: 2px;
+    border-style: double;
+
+    
+}
+button:hover:before{
+    content: "X";
+    opacity: 1;
+
+}
+.clean{
+    font-size: 12px;
+    height: 45px;
+    text-align: center;
+    grid-column: span 3;
+    background-color: #f9f10bb9;
+    
+}

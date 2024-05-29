@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.juegoPokemon {
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-rows: 100px 250px repeat(4, 50px) 75px;
+    padding: 50px;
+    grid-row: span 1;
+    background-color: #6d66d1;
+    
+    color: white;
+    font-family: serif;
+    
+}
+.fondoImagen{
+    background-color: rgba(182, 177, 177, 0.788);
+    margin-top: 12px;
+    border-radius: 10px;
+}
+button{
+    border-radius: 25px;
+    margin: 2px;
+    background-color: rgb(184, 118, 118);
+    color: white;
+  
+   
+}
+
+
+h1 {
+    color: rgb(230, 164, 164);
+    text-align: center;
+}
+
+img {
+    max-width: 75%;
+    height: auto;
+    margin: 10px;
+    align-self: flex-start;
+    
+}
+
+#mensajes{
+    background-color: azure;
+    margin: 5px;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 25px;
+    
+}
